@@ -1,6 +1,16 @@
 'use client';
 import { JobApplicationForm } from "@/components/JobApplicationForm";
 import { FirebaseClientProvider } from "@/firebase";
+import React, { Suspense } from 'react';
+import { Loader2 } from 'lucide-react';
+
+function JobSeekerForm() {
+  return (
+    <Suspense fallback={<div className="flex justify-center items-center py-12"><Loader2 className="h-12 w-12 animate-spin" /></div>}>
+      <JobApplicationForm />
+    </Suspense>
+  )
+}
 
 export default function JobSeekerPage() {
   return (
@@ -19,7 +29,7 @@ export default function JobSeekerPage() {
 
         <section className="py-16 sm:py-24">
           <div className="container mx-auto px-4 max-w-2xl">
-            <JobApplicationForm />
+            <JobSeekerForm />
           </div>
         </section>
       </div>
