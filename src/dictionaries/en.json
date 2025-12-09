@@ -1,0 +1,167 @@
+
+{
+    "metadata": {
+        "title": "Indian HR Overseas | Supplying Skilled Workforce to Gulf Countries",
+        "description": "Your trusted partner for sourcing skilled and unskilled Indian manpower for construction, hospitality, and more in the Gulf region."
+    },
+    "header": {
+        "email": "indianhroverseas@gmail.com"
+    },
+    "headerNav": {
+        "home": "Home",
+        "about": "About",
+        "recruitmentSectors": "Recruitment Sectors",
+        "jobSeeker": "Job Seeker",
+        "currentJobs": "Current Jobs",
+        "contact": "Contact",
+        "language": "عربي",
+        "sectors": {
+            "all": "All Sectors",
+            "healthcare": "Health Care",
+            "civil": "Civil Construction",
+            "electro": "Electro-Mechanical",
+            "hospitality": "Hospitality & Catering",
+            "facility": "Facility Management",
+            "metro": "Metro & Railways",
+            "logistics": "Logistics & Distribution",
+            "retail": "Retail",
+            "ecommerce": "Ecommerce",
+            "transportation": "Transportation",
+            "airport": "Airport Maintenance"
+        }
+    },
+    "footer": {
+        "tagline": "Your trusted partner for sourcing skilled and unskilled Indian manpower for the Gulf region.",
+        "license": "License No: B-1234/MUM/PER/1000+/5/9876/2023",
+        "company": "Company",
+        "solutions": "Solutions",
+        "contactUs": "Contact Us",
+        "address": "123 Business Bay, Mumbai, Maharashtra 400001, India",
+        "copyright": "Indian HR Overseas. All Rights Reserved.",
+        "links": {
+            "company": [
+                { "href": "/about", "label": "About Us" },
+                { "href": "/services", "label": "Our Services" },
+                { "href": "/contact", "label": "Contact" }
+            ],
+            "solutions": [
+                { "href": "/manpower", "label": "Manpower Categories" },
+                { "href": "/countries", "label": "Countries We Serve" },
+                { "href": "/#request-quote", "label": "Request a Quote" }
+            ]
+        }
+    },
+    "page": {
+        "home": {
+            "requestQuote": "Request a Quote",
+            "ourServices": "Our Services",
+            "industries": {
+                "title": "Industries We Serve",
+                "subtitle": "We provide manpower solutions across a wide range of sectors in the Gulf.",
+                "items": {
+                    "construction": "Construction",
+                    "facilityManagement": "Facility Management",
+                    "hospitality": "Hospitality & Catering",
+                    "security": "Security",
+                    "transport": "Transport & Logistics",
+                    "oilGas": "Oil & Gas Support"
+                }
+            },
+            "workers": {
+                "title": "Categories of Workers",
+                "subtitle": "We source a diverse range of professionals to meet your specific operational needs.",
+                "categories": {
+                    "skilled": "Skilled Workers",
+                    "semiSkilled": "Semi-Skilled Workers",
+                    "unskilled": "Unskilled Workers"
+                },
+                "examples": {
+                    "skilledExamples": "Electrician, Plumber, Mason, Welder, Carpenter, Drivers, etc.",
+                    "semiSkilledExamples": "Helpers, Warehouse Loaders, Machine Operators.",
+                    "unskilledExamples": "General Labor, Cleaners, Packing Staff."
+                }
+            },
+            "whyUs": {
+                "title": "Why Indian HR Overseas?",
+                "subtitle": "Experience efficiency, reliability, and peace of mind with our comprehensive services.",
+                "points": {
+                    "fastMobilization": "Fast Mobilization of Workforce",
+                    "tradeTestSupport": "Official Trade Test Support",
+                    "licensedAgency": "Licensed & Approved Manpower Agency",
+                    "endToEndProcessing": "End-to-End Visa, Medical & Flight Processing"
+                }
+            },
+            "countries": {
+                "title": "Countries We Supply",
+                "subtitle": "We are experts in the recruitment process for all major Gulf countries.",
+                "items": {
+                    "saudiArabia": "Saudi Arabia",
+                    "uae": "UAE",
+                    "qatar": "Qatar",
+                    "oman": "Oman",
+                    "bahrain": "Bahrain",
+                    "kuwait": "Kuwait"
+                }
+            },
+            "quote": {
+                "title": "Request a Quote",
+                "subtitle": "Tell us your requirements, and we'll provide a competitive quote for your manpower needs."
+            }
+        },
+        "services": {
+            "title": "Our Services",
+            "subtitle": "A complete, end-to-end recruitment solution designed to provide you with a capable and reliable workforce, hassle-free.",
+            "contactButton": "Contact Now",
+            "items": {
+                "manpower-supply": {
+                    "title": "Manpower Supply",
+                    "description": "We are experts at sourcing, screening, and supplying a full spectrum of manpower, from high-level skilled technicians to general laborers. We ensure that every candidate not only meets the skill requirements but also aligns with your company culture."
+                },
+                "trade-testing": {
+                    "title": "Trade Testing & Skill Assessment",
+                    "description": "Our state-of-the-art trade testing facilities and certified assessors conduct rigorous evaluations to verify the practical skills and competency of every candidate. This guarantees that you receive a workforce that is ready to perform from day one."
+                },
+                "visa-processing": {
+                    "title": "Visa & Insurance Processing",
+                    "description": "Navigating complex visa and insurance regulations can be challenging. Our dedicated team handles all documentation, applications, and follow-ups with embassies and insurance providers to ensure a smooth and timely process."
+                },
+                "travel-arrangements": {
+                    "title": "Travel Arrangements",
+                    "description": "We manage all aspects of mobilization, including flight bookings, airport transfers, and pre-departure briefings. Our logistics team ensures that your new hires arrive at the destination safely and on schedule."
+                },
+                "bulk-hiring": {
+                    "title": "Bulk Hiring Support",
+                    "description": "For large-scale projects requiring hundreds of workers, we offer specialized bulk hiring solutions. We organize recruitment drives, manage mass interviews, and coordinate large-group mobilization efficiently."
+                },
+                "drivers": {
+                    "title": "Drivers",
+                    "description": "We provide experienced and licensed light & heavy duty drivers for personal, corporate, and transport needs."
+                },
+                "electricians": {
+                    "title": "Electricians",
+                    "description": "Sourcing certified electricians for construction, maintenance, and industrial projects across the Gulf region."
+                },
+                "chefs": {
+                    "title": "Chefs & Cooks",
+                    "description": "Supplying culinary professionals, from executive chefs to line cooks, for hotels, restaurants, and catering services."
+                },
+                "barbers": {
+                    "title": "Barbers",
+                    "description": "Recruiting skilled barbers and hairstylists for salons and grooming centers, proficient in modern and traditional techniques."
+                },
+                "truck-drivers": {
+                    "title": "Truck Drivers",
+                    "description": "Specialized in finding reliable long-haul and short-haul truck drivers with excellent safety records for logistics companies."
+                },
+                "hotel-staff": {
+                    "title": "Hotel Staff",
+                    "description": "Comprehensive recruitment for all hotel positions, including front desk, housekeeping, F&B, and management."
+                },
+                "plumbers": {
+                    "title": "Plumbers",
+                    "description": "Providing qualified plumbers for residential, commercial, and industrial plumbing installation and maintenance jobs."
+                }
+            }
+        }
+    }
+}

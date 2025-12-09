@@ -1,0 +1,81 @@
+
+{
+  "entities": {
+    "Job": {
+      "title": "Job",
+      "type": "object",
+      "description": "Represents a job opening.",
+      "properties": {
+        "title": { "type": "string", "description": "The title of the job." },
+        "category": { "type": "string", "description": "The category of the job (e.g., Construction, Hospitality)." },
+        "location": { "type": "string", "description": "The city/area where the job is located." },
+        "country": { "type": "string", "description": "The country where the job is located." },
+        "salary": { "type": "string", "description": "The salary or salary range for the job." },
+        "description": { "type": "string", "description": "A detailed description of the job." },
+        "experienceRequired": { "type": "string", "description": "The required experience for the job." },
+        "photoUrl": { "type": "string", "description": "URL of an image representing the job.", "format": "uri" },
+        "isFeatured": { "type": "boolean", "description": "Whether the job is featured on the homepage." },
+        "createdAt": { "type": "string", "format": "date-time", "description": "The date and time the job was created." },
+        "updatedAt": { "type": "string", "format": "date-time", "description": "The date and time the job was last updated." }
+      },
+      "required": ["title", "category", "location", "country", "description", "createdAt", "updatedAt"]
+    },
+    "JobApplication": {
+      "title": "JobApplication",
+      "type": "object",
+      "description": "Represents a job application submitted by a user.",
+      "properties": {
+        "jobId": { "type": "string", "description": "The ID of the job being applied for." },
+        "jobTitle": { "type": "string", "description": "The title of the job being applied for." },
+        "name": { "type": "string" },
+        "email": { "type": "string", "format": "email" },
+        "phone": { "type": "string" },
+        "experienceLevel": { "type": "string" },
+        "resumeUrl": { "type": "string", "format": "uri" },
+        "country": { "type": "string", "description": "Applicant's country of residence." },
+        "message": { "type": "string" },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "status": { "type": "string", "enum": ["new", "viewed", "shortlisted", "hired", "rejected"] },
+        "notes": { "type": "string", "description": "Internal notes from admin." }
+      },
+      "required": ["jobId", "jobTitle", "name", "email", "phone", "resumeUrl", "createdAt", "status"]
+    },
+    "QuoteRequest": {
+      "title": "QuoteRequest",
+      "type": "object",
+      "description": "Represents a quote request from a company seeking manpower.",
+      "properties": {
+        "clientName": { "type": "string" },
+        "company": { "type": "string" },
+        "country": { "type": "string" },
+        "manpowerType": { "type": "string" },
+        "quantityNeeded": { "type": "number" },
+        "email": { "type": "string", "format": "email" },
+        "phone": { "type": "string" },
+        "message": { "type": "string" },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "status": { "type": "string", "enum": ["new", "responded", "closed"] }
+      },
+      "required": ["clientName", "company", "country", "manpowerType", "email", "createdAt", "status"]
+    }
+  },
+  "auth": {
+    "providers": ["password", "anonymous"]
+  },
+  "firestore": {
+    "collections": {
+      "/jobs/{jobId}": {
+        "schema": { "$ref": "#/entities/Job" },
+        "description": "Stores all job listings."
+      },
+      "/applications/{applicationId}": {
+        "schema": { "$ref": "#/entities/JobApplication" },
+        "description": "Stores all submitted job applications."
+      },
+      "/quote_requests/{quoteId}": {
+        "schema": { "$ref": "#/entities/QuoteRequest" },
+        "description": "Stores all submitted quote requests."
+      }
+    }
+  }
+}

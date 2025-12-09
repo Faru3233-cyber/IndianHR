@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer base {
+  :root {
+    --background: 0 0% 100%; /* #FFFFFF */
+    --foreground: 222.2 84% 4.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+
+    --primary: 151 100% 16%; /* #005430 */
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 336 100% 50%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 336 100% 50%;
+
+    --chart-1: 34 100% 50%;
+    --chart-2: 60 95% 60%;
+    --chart-3: 0 100% 64%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+    --radius: 0.5rem;
+
+    /* Sidebar variables for original dark theme */
+    --sidebar-background: 258 58% 9%; /* #120D25 */
+    --sidebar-foreground: 240 5.3% 90%;
+    --sidebar-primary: 336 100% 50%; /* Hot Pink */
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 260 41% 15%; /* #2A1846 */
+    --sidebar-accent-foreground: 0 0% 98%;
+    --sidebar-border: 255 50% 15%;
+    --sidebar-ring: 336 100% 50%;
+  }
+
+  .dark {
+    --background: 270 12% 12%; /* Dark purple/grey for main content area */
+    --foreground: 0 0% 95%; /* Off-white for text */
+    --card: 270 10% 15%; /* Slightly lighter shade for cards */
+    --card-foreground: 0 0% 95%;
+
+    --popover: 270 12% 12%;
+    --popover-foreground: 0 0% 95%;
+
+    --primary: 332 100% 50%; /* Hot Pink/Magenta */
+    --primary-foreground: 0 0% 100%;
+    --secondary: 270 10% 25%;
+    --secondary-foreground: 0 0% 98%;
+    
+    --muted: 270 10% 25%;
+    --muted-foreground: 0 0% 63%; /* Muted gray for secondary text */
+    
+    --accent: 332 100% 50%; /* Hot Pink/Magenta for accents */
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 80% 55%;
+    --destructive-foreground: 0 0% 100%;
+    
+    --border: 270 10% 25%;
+    --input: 270 10% 25%;
+    --ring: 332 100% 50%;
+
+    --chart-1: 30 100% 50%; /* Orange */
+    --chart-2: 45 100% 50%; /* Yellow/Gold */
+    --chart-3: 0 100% 50%; /* Red */
+    --chart-4: 332 100% 50%; /* Pink */
+    --chart-5: 210 100% 50%; /* Blue */
+
+     /* New Sidebar variables to match theme */
+    --sidebar-background: 270 15% 10%; /* Even darker purple for sidebar */
+    --sidebar-foreground: 0 0% 90%;
+    --sidebar-primary: 332 100% 50%; /* Hot Pink */
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 270 10% 20%;
+    --sidebar-accent-foreground: 0 0% 98%;
+    --sidebar-border: 270 10% 20%;
+    --sidebar-ring: 332 100% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero",
+      "description": "Hero image showing construction site",
+      "imageUrl": "https://images.unsplash.com/photo-1567954970774-58d6aa6c50dc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjb25zdHJ1Y3Rpb24lMjBzaXRlfGVufDB8fHx8MTc2NDkyODkyMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "construction site"
+    },
+    {
+      "id": "construction",
+      "description": "Construction workers with blueprints",
+      "imageUrl": "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjb25zdHJ1Y3Rpb24lMjB3b3JrZXJzfGVufDB8fHx8MTc2NDk5Njg0M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "construction workers"
+    },
+    {
+      "id": "facility-management",
+      "description": "Professional cleaning staff in a modern building",
+      "imageUrl": "https://images.unsplash.com/photo-1708201229016-881f2f045ab8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjbGVhbmluZyUyMHN0YWZmfGVufDB8fHx8MTc2NDg3NDA5MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cleaning staff"
+    },
+    {
+      "id": "hospitality",
+      "description": "Hotel reception staff attending to a guest",
+      "imageUrl": "https://images.unsplash.com/photo-1628595555170-17f3634c93fb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8aG90ZWwlMjBzdGFmZnxlbnwwfHx8fDE3NjQ5OTY4NDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hotel staff"
+    },
+    {
+      "id": "security",
+      "description": "Security guards monitoring screens",
+      "imageUrl": "https://images.unsplash.com/photo-1581568736305-49a04e012c13?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzZWN1cml0eSUyMGd1YXJkc3xlbnwwfHx8fDE3NjQ5OTY4NDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "security guards"
+    },
+    {
+      "id": "transport",
+      "description": "A fleet of trucks at a logistics hub",
+      "imageUrl": "https://images.unsplash.com/photo-1754470276342-df40e5d4e607?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx0cnVja3MlMjBsb2dpc3RpY3N8ZW58MHx8fHwxNzY0OTk2ODQzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "trucks logistics"
+    },
+    {
+      "id": "oil-gas",
+      "description": "Workers on an offshore oil rig platform",
+      "imageUrl": "https://images.unsplash.com/photo-1516199423456-1f1e91b06f25?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxvaWwlMjByaWd8ZW58MHx8fHwxNzY0ODkzODE4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "oil rig"
+    },
+    {
+      "id": "about-us",
+      "description": "A modern, professional office interior with people working",
+      "imageUrl": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxvZmZpY2UlMjBpbnRlcmlvcnxlbnwwfHx8fDE3NjQ5Nzc2MDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "office interior"
+    },
+    {
+      "id": "trade-test",
+      "description": "Welders being assessed in a trade testing facility",
+      "imageUrl": "https://images.unsplash.com/photo-1601119462363-721d8e4f676e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx3ZWxkaW5nJTIwdGVzdHxlbnwwfHx8fDE3NjQ5OTY4NDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "welding test"
+    },
+    {
+      "id": "visa-processing",
+      "description": "Close-up of a passport receiving an official stamp",
+      "imageUrl": "https://images.unsplash.com/photo-1581553673739-c4906b5d0de8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxwYXNzcG9ydCUyMHN0YW1wfGVufDB8fHx8MTc2NDk2NzEzNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "passport stamp"
+    },
+    {
+      "id": "travel",
+      "description": "An airplane parked at an airport terminal, ready for boarding",
+      "imageUrl": "https://images.unsplash.com/photo-1677230761040-fd78e9c2e9f0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhaXJwbGFuZSUyMHRlcm1pbmFsfGVufDB8fHx8MTc2NDk5Njg0M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "airplane terminal"
+    },
+    {
+      "id": "bulk-hiring",
+      "description": "A large group of candidates waiting for interviews in a hall",
+      "imageUrl": "https://images.unsplash.com/photo-1698047681452-08eba22d0c64?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxqb2IlMjBpbnRlcnZpZXd8ZW58MHx8fHwxNzY0OTQxNzg4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "job interview"
+    },
+    {
+      "id": "manpower-supply",
+      "description": "A diverse group of skilled workers ready for deployment",
+      "imageUrl": "https://images.unsplash.com/photo-1740825961434-e9287638592b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxza2lsbGVkJTIwd29ya2Vyc3xlbnwwfHx8fDE3NjQ5OTY4NDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "skilled workers"
+    },
+    {
+      "id": "contact-us",
+      "description": "A professional handshake closing a deal",
+      "imageUrl": "https://images.unsplash.com/photo-1672380135241-c024f7fbfa13?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxidXNpbmVzcyUyMGhhbmRzaGFrZXxlbnwwfHx8fDE3NjQ5ODIzNzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "business handshake"
+    },
+    {
+      "id": "driver",
+      "description": "Professional driver in uniform standing by a car.",
+      "imageUrl": "https://images.unsplash.com/photo-1692455546765-b7b6849ac9ce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cHJvZmVzc2lvbmFsJTIwZHJpdmVyfGVufDB8fHx8MTc2NTEyODMzNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "professional driver"
+    },
+    {
+      "id": "electrician",
+      "description": "Electrician installing wiring in a new building.",
+      "imageUrl": "https://images.unsplash.com/photo-1621905251918-48416bd8575a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxlbGVjdHJpY2lhbiUyMHdvcmtpbmd8ZW58MHx8fHwxNzY1MTg5OTE4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "electrician working"
+    },
+    {
+      "id": "chef",
+      "description": "Chef preparing a gourmet meal in a professional kitchen.",
+      "imageUrl": "https://images.unsplash.com/photo-1697898109582-40f15c65f174?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBjaGVmfGVufDB8fHx8MTc2NTE4OTkxOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "professional chef"
+    },
+    {
+      "id": "barber",
+      "description": "Barber giving a client a stylish haircut in a modern barbershop.",
+      "imageUrl": "https://images.unsplash.com/photo-1654097800183-574ba7368f74?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxiYXJiZXIlMjBoYWlyY3V0fGVufDB8fHx8MTc2NTEwMDk2MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "barber haircut"
+    },
+    {
+      "id": "truck-driver",
+      "description": "Truck driver at the wheel of a large transport truck on the highway.",
+      "imageUrl": "https://images.unsplash.com/photo-1547319784-330d3b12b3bb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx0cnVjayUyMGRyaXZlcnxlbnwwfHx8fDE3NjUxMzY3OTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "truck driver"
+    },
+    {
+      "id": "hotel-staff",
+      "description": "Hotel staff at the reception desk assisting a guest.",
+      "imageUrl": "https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxob3RlbCUyMHN0YWZmfGVufDB8fHx8MTc2NTE2NzU4NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hotel staff"
+    },
+    {
+      "id": "plumber",
+      "description": "A plumber fixing pipes under a sink.",
+      "imageUrl": "https://images.unsplash.com/photo-1750749761538-3aea36066a4f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxwbHVtYmVyJTIwd29ya2luZ3xlbnwwfHx8fDE3NjUxMTQwMDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "plumber working"
+    }
+  ]
+}
