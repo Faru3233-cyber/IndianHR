@@ -1,15 +1,8 @@
-
 {
   "version": 2,
   "build": {
     "env": {
       "GENKIT_ENV": "production"
     }
-  },
-  "builds": [
-    {
-      "src": "next.config.ts",
-      "use": "@vercel/next"
-    }
-  ]
+  }
 }
